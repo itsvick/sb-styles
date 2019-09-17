@@ -1,11 +1,10 @@
-
 // Dashed Buttons
 $sb-btn-dashed-border: 0.5 solid $primary-color;
 $sb-btn-dashed-background-color: $white;
 $sb-btn-dashed-color: $primary-400;
 // Button groups
 $sb-btn-group-border-width: 1px;
-$sb-btn-group-border-color: $gray-100; 
+$sb-btn-group-border-color: $gray-100;
 $sb-btn-group-btn-background: $white;
 $sb-btn-group-btn-color: $primary-400;
 $sb-btn-group-btn-active-background-color: $primary-100;
@@ -69,13 +68,21 @@ a.sbbtn {
     transform-origin: 50% 50%;
   }
 
+  // Radius none
+
+  &.flat {
+    border-radius: 0;
+  }
   // button sizes
   &--xs,
   &--sm,
   &--md,
   &--lg,
-  &--full {
+  &.full {
     padding: ($base-block-space * 1/2) ($base-block-space * 2);
+  }
+  &.full-width {
+    width: 100%;
   }
   &--xs {
     height: ($base-block-space * 3);
@@ -383,8 +390,7 @@ a.sbbtn {
 }
 
 .sb-btn-loading-spinner {
-  padding: ($base-block-space * 1) ($base-block-space * 2)
-    ($base-block-space * 1) ($base-block-space * 1);
+  padding: ($base-block-space * 1) ($base-block-space * 2) ($base-block-space * 1) ($base-block-space * 1);
 }
 
 @keyframes spinner-border {
@@ -443,16 +449,14 @@ a.sbbtn {
 
 *[dir="ltr"] {
   .sb-right-icon-btn {
-    padding: ($base-block-space * 1) ($base-block-space * 1)
-      ($base-block-space * 1) ($base-block-space * 2);
+    padding: ($base-block-space * 1) ($base-block-space * 1) ($base-block-space * 1) ($base-block-space * 2);
     i.icon {
       margin-left: $base-block-space;
       margin-right: 0;
     }
   }
   .sb-left-icon-btn {
-    padding: ($base-block-space * 1) ($base-block-space * 2)
-      ($base-block-space * 1) ($base-block-space * 1);
+    padding: ($base-block-space * 1) ($base-block-space * 2) ($base-block-space * 1) ($base-block-space * 1);
     i.icon {
       margin-right: $base-block-space;
     }
@@ -460,24 +464,21 @@ a.sbbtn {
 }
 *[dir="rtl"] {
   .sb-right-icon-btn {
-    padding: ($base-block-space * 1) ($base-block-space * 1)
-      ($base-block-space * 1) ($base-block-space * 2);
+    padding: ($base-block-space * 1) ($base-block-space * 1) ($base-block-space * 1) ($base-block-space * 2);
     i.icon {
       margin-left: 0;
       margin-right: $base-block-space;
     }
   }
   .sb-left-icon-btn {
-    padding: ($base-block-space * 1) ($base-block-space * 2)
-      ($base-block-space * 1) ($base-block-space * 1);
+    padding: ($base-block-space * 1) ($base-block-space * 2) ($base-block-space * 1) ($base-block-space * 1);
     i.icon {
       margin-left: $base-block-space;
     }
   }
 }
 .sb-left-icon-btn {
-  padding: ($base-block-space * 0) ($base-block-space * 1)
-    ($base-block-space * 0) ($base-block-space * 1);
+  padding: ($base-block-space * 0) ($base-block-space * 1) ($base-block-space * 0) ($base-block-space * 1);
 }
 
 /*Create ripple effec*/
