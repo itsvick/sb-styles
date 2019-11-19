@@ -33,7 +33,7 @@ a.sb-btn {
   outline: 0;
   display: inline-block;
   border: 1px solid;
-  color: $white-color;
+  color: $white;
   cursor: pointer;
   min-width: ($base-block-space * 8);
   @include border-radius(3px);
