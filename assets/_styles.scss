@@ -1,6 +1,3 @@
-//Global notosans fonts
-// @import "./inlinefonts/fonts";
-
 // base scss partials
 @import "./variables"; // Global css and scss
 @import "./mixins/mixins"; //Bourbon plugin mixins also included media queries, buttons, radius, labels etc.,
@@ -13,8 +10,8 @@
 @import "./displays"; // visibility
 @import "./positions"; 
 @import "./texts"; // alignments
-@import "./margins"; // global margin
-@import "./paddings"; // global padding
+// @import "./margins"; // global margin
+// @import "./paddings"; // global padding
 @import "./overflows"; 
 @import "./flexbox"; // common flexbox styles
 @import "./borders"; // custom border styles
