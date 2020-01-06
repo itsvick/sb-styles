@@ -711,6 +711,15 @@ a.sb-btn {
   }
 }
 
+.sb-btn-grow {
+  transition: all .25s ease-in-out;
+}
+
+.sb-btn-grow:hover:not([disabled]) {
+  background: none;
+  transform: scale(1.15);
+}
+
 @keyframes loading {
   0% {
     -webkit-transform: rotate(0deg);
