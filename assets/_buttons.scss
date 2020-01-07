@@ -755,7 +755,7 @@ a.sb-btn {
   cursor: pointer;
   &:disabled {
     opacity: 0.4;
-    cursor: none;
+    cursor: default;
   }
   transition: all .2s ease-in-out;
   &:hover:not([disabled]) {
