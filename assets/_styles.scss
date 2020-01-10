@@ -2,6 +2,7 @@
 @import "./variables"; // Global css and scss
 @import "./mixins/mixins"; //Bourbon plugin mixins also included media queries, buttons, radius, labels etc.,
 @import "./mixins/custom-mixins"; 
+@import "./icons"; // icons
 @import "./reset"; // global style reset
 @import "./colors"; //common branded class colors
 @import "./sizing"; //width heights etc
