@@ -1,5 +1,5 @@
 [class^="sb-icon-"],
-[class*=" sb-icon-"] {
+[class*="sb-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
@@ -87,15 +87,6 @@
   background-color: $red;
 }
 
-[class*="sb-icon-edit-user"] {
-  -webkit-mask-image: url(../../assets/images/edit-icon.svg);
-  mask-image: url(../../assets/images/edit-icon.svg);
-}
-
-[class*="sb-icon-delete-user"] {
-  -webkit-mask-image: url(../../assets/images/delete-icon.svg);
-  mask-image: url(../../assets/images/delete-icon.svg);
-}
 .info-icon {
   background-color: $gray-400;
   -webkit-mask-size: contain;
