@@ -57,28 +57,6 @@ a {
 }
 
 
-.sb__ellipsis {
-  /* autoprefixer: off */
-  -webkit-box-orient: vertical;
-  /* autoprefixer: on */
-  display:-webkit-box;
-  -webkit-line-clamp: 1;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  word-break: break-all;
-  &--two {
-    -webkit-line-clamp: 2;
-  }
-  &--three {
-    -webkit-line-clamp: 3;
-  }
-}
-.ellipsis{
-  white-space: nowrap; 
-  overflow: hidden;
-  text-overflow: ellipsis;
-  cursor: pointer;
-}
 
 
 *[dir="ltr"] {
